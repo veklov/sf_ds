@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "guess-number"
+version = "0.1.0"
+description = "Guess Number Game"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "guess_number"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
