@@ -1,11 +1,15 @@
 [tool.poetry]
-name = "guess-number"
-description = "Guess Number Game"
+name = "hh-cvs-analysis"
+description = "Head Hunter CVs Analysis"
 package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "^2.1.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
 
 
 [tool.poetry.group.dev.dependencies]
